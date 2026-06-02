@@ -1,4 +1,5 @@
-from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+from cryptography.hazmat.primitives.ciphers import Cipher, algorithms
+from cryptography.hazmat.decrepit.ciphers import modes
 
 # https://cryptography.io/en/latest/hazmat/primitives/symmetric-encryption/#cryptography.hazmat.primitives.ciphers.algorithms.AES
 class BlufiAES(object):
